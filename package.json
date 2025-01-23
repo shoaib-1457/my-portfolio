@@ -12,6 +12,7 @@
   },
   "homepage": "https://sheikh-portfolio.vercel.app/",
   "scripts": {
+    "prebuild": "chmod +x ./node_modules/.bin/tsc",
     "dev": "vite --host",
     "build": "tsc -b && vite build",
     "vercel-build": "npm run build",
