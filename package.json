@@ -14,7 +14,7 @@
   "scripts": {
     "dev": "vite --host",
     "build": "tsc -b && vite build",
-    "vercel-build": "npm run build", // Added for Vercel
+    "vercel-build": "npm run build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
@@ -50,6 +50,6 @@
     "vite": "^5.4.1"
   },
   "engines": {
-    "node": ">=18.0.0" // Ensure compatibility with Vercel's Node.js version
+    "node": ">=18.0.0"
   }
 }
